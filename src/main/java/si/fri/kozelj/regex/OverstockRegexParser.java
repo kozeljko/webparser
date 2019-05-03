@@ -31,20 +31,18 @@ public class OverstockRegexParser extends AbstractRegexParser {
 
         List<OverstockItem> models = new ArrayList<>();
         for (int i = 0; i < titles.size(); i++) {
-            OverstockItem.Builder builder = new OverstockItem.Builder();
-            builder.title(titles.get(i));
-            builder.listPrice(listPrices.get(i));
-            builder.price(prices.get(i));
-            builder.saving(savings.get(i));
-            builder.savingPercent(savingPercentages.get(i));
-            builder.content(contents.get(i));
+            OverstockItem item = new OverstockItem.Builder()
+                    .title(titles.get(i))
+                    .listPrice(listPrices.get(i))
+                    .price(prices.get(i))
+                    .saving(savings.get(i))
+                    .savingPercent(savingPercentages.get(i))
+                    .content(contents.get(i))
+                    .build();
 
-            models.add(builder.build());
+            models.add(item);
         }
 
-        OverstockModel model = new OverstockModel(models);
-        Gson gson = new Gson();
-
-        return gson.toJson(model);
+        return getGson().toJson(new OverstockModel(models));
     }
 }
