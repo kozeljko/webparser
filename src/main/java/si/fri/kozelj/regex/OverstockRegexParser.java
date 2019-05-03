@@ -1,6 +1,5 @@
 package si.fri.kozelj.regex;
 
-import com.google.gson.Gson;
 import si.fri.kozelj.models.OverstockItem;
 import si.fri.kozelj.models.OverstockModel;
 
@@ -22,12 +21,12 @@ public class OverstockRegexParser extends AbstractRegexParser {
 
     @Override
     public String parseJson() {
-        List<String> titles = getMatches(TITLE_PATTERN);
-        List<String> listPrices = getMatches(LIST_PRICE_PATTERN);
-        List<String> prices = getMatches(PRICE_PATTERN);
-        List<String> savings = getMatches(SAVING_PATTERN);
-        List<String> savingPercentages = getMatches(SAVING_PERCENT_PATTERN);
-        List<String> contents = getMatches(CONTENT_PATTERN);
+        List<String> titles = getMatches(TITLE_PATTERN, true);
+        List<String> listPrices = getMatches(LIST_PRICE_PATTERN, true);
+        List<String> prices = getMatches(PRICE_PATTERN, true);
+        List<String> savings = getMatches(SAVING_PATTERN, true);
+        List<String> savingPercentages = getMatches(SAVING_PERCENT_PATTERN, true);
+        List<String> contents = getMatches(CONTENT_PATTERN, true);
 
         List<OverstockItem> models = new ArrayList<>();
         for (int i = 0; i < titles.size(); i++) {

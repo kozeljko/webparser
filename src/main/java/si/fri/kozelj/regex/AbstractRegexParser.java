@@ -18,12 +18,12 @@ public abstract class AbstractRegexParser {
 
     public abstract String parseJson();
 
-    List<String> getMatches(Pattern pattern) {
+    List<String> getMatches(Pattern pattern, boolean cleanString) {
         Matcher matcher = pattern.matcher(pageContent);
         List<String> foundMatches = new ArrayList<>();
         while (matcher.find()) {
-            String rawSubstring = cleanMatch(pageContent.substring(matcher.start(1), matcher.end(1)));
-            foundMatches.add(cleanMatch(rawSubstring));
+            String rawSubstring = pageContent.substring(matcher.start(1), matcher.end(1));
+            foundMatches.add(cleanString ? cleanMatch(rawSubstring) : rawSubstring);
         }
 
         return foundMatches;
