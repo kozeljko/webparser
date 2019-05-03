@@ -58,7 +58,7 @@ public class App {
 
     private static String loadFromFile(String fileName) throws IOException {
         URL url = App.class.getResource(PAGE_PATH + fileName);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8"));
         StringBuilder stringBuilder = new StringBuilder();
 
         String line;
