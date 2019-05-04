@@ -3,6 +3,7 @@ package si.fri.kozelj.parsers;
 import si.fri.kozelj.parsers.regex.BookRegexParser;
 import si.fri.kozelj.parsers.regex.OverstockRegexParser;
 import si.fri.kozelj.parsers.regex.RtvRegexParser;
+import si.fri.kozelj.parsers.xpath.BookXPathParser;
 import si.fri.kozelj.parsers.xpath.OverstockXPathParser;
 import si.fri.kozelj.parsers.xpath.RtvXPathParser;
 
@@ -47,8 +48,8 @@ public class ParserFactory {
                 return new OverstockXPathParser(fileContent);
             case RTV:
                 return new RtvXPathParser(fileContent);
-//            case BOOKS:
-//                return new BookRegexParser(fileContent);
+            case BOOKS:
+                return new BookXPathParser(fileContent);
             default:
                 throw new RuntimeException("Unknown file name");
         }
