@@ -113,7 +113,7 @@ public abstract class AbstractXPathParser implements Parser {
     }
 
     private String cleanMatch(String match) {
-        return match.replaceAll("\\n", " ").trim();
+        return match.replaceAll("\\n", " ").replaceAll("[\\t]", "").trim();
     }
 
     String getNodeString(Node node) {

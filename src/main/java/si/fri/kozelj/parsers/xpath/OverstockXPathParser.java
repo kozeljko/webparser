@@ -17,7 +17,7 @@ public class OverstockXPathParser extends AbstractXPathParser {
     private static final String PRICE_XPATH_EXPRESSION = "//table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/span/b/text()";
     private static final String SAVING_XPATH_EXPRESSION = "//table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr[3]/td[2]/span/text()";
     private static final String SAVING_PERCENT_XPATH_EXPRESSION = "//table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr[3]/td[2]/span/text()";
-    private static final String CONTENT_XPATH_EXPRESSION = "//table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td[2]/span/text()";
+    private static final String CONTENT_XPATH_EXPRESSION = "//table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td[2]/span/text()[1]";
 
     /**
      * Example value: $124.4 (40%)

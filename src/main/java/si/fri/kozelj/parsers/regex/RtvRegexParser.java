@@ -8,8 +8,8 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class RtvRegexParser extends AbstractRegexParser {
-    private static final Pattern AUTHOR_PATTERN = Pattern.compile("<div class=\"author-timestamp\">(?:.|\\r|\\n)*?\\s*(.*?)\\|(?:.|\\r|\\n)*?<\\/div>");
-    private static final Pattern PUBLISHED_TIME_PATTERN = Pattern.compile("<div class=\"author-timestamp\">(?:.|\\r|\\n)*?\\|(.*?)(?:\\r|\\n|\\s)*?<\\/div>");
+    private static final Pattern AUTHOR_PATTERN = Pattern.compile("<div class=\"author-name\">(.*?)<\\/div>");
+    private static final Pattern PUBLISHED_TIME_PATTERN = Pattern.compile("<div class=\"publish-meta\">(?:.|\\r|\\n)*?([^\\t]*?)<br>");
     private static final Pattern TITLE_PATTERN = Pattern.compile("<h1>(.*)<\\/h1>");
     private static final Pattern SUBTITLE_PATTERN = Pattern.compile("<div class=\"subtitle\">(.*)<\\/div>");
     private static final Pattern LEAD_PATTERN = Pattern.compile("<p class=\"lead\">(.*)<\\/p>");
