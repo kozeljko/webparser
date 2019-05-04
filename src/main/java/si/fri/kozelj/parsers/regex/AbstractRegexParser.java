@@ -1,13 +1,14 @@
-package si.fri.kozelj.regex;
+package si.fri.kozelj.parsers.regex;
 
 import com.google.gson.Gson;
+import si.fri.kozelj.parsers.Parser;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public abstract class AbstractRegexParser {
+public abstract class AbstractRegexParser implements Parser {
     private final String pageContent;
     private final Gson gson;
 
@@ -15,8 +16,6 @@ public abstract class AbstractRegexParser {
         this.pageContent = pageContent;
         this.gson = new Gson();
     }
-
-    public abstract String parseJson();
 
     List<String> getMatches(Pattern pattern, boolean cleanString) {
         Matcher matcher = pattern.matcher(pageContent);
@@ -34,6 +33,6 @@ public abstract class AbstractRegexParser {
     }
 
     private String cleanMatch(String match) {
-        return match.replaceAll("<a .*?<\\/a>", "").replaceAll("<\\/?.*?>", "").replaceAll("\\n", " ");
+        return match.replaceAll("<a .*?<\\/a>", "").replaceAll("<\\/?.*?>", "").replaceAll("\\n", " ").trim();
     }
 }

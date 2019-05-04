@@ -1,4 +1,4 @@
-package si.fri.kozelj.regex;
+package si.fri.kozelj.parsers.regex;
 
 import si.fri.kozelj.models.OverstockItem;
 import si.fri.kozelj.models.OverstockModel;
