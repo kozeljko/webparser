@@ -31,8 +31,4 @@ public abstract class AbstractRegexParser implements Parser {
     Gson getGson() {
         return gson;
     }
-
-    private String cleanMatch(String match) {
-        return match.replaceAll("<a .*?<\\/a>", "").replaceAll("<\\/?.*?>", "").replaceAll("\\n", " ").trim();
-    }
 }

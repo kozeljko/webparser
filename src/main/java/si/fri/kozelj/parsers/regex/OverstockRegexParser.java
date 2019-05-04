@@ -8,12 +8,12 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 public class OverstockRegexParser extends AbstractRegexParser {
-    private static final Pattern TITLE_PATTERN = Pattern.compile("<a .*?>(.*)<\\/a><br>\\s[\\r\\n]*<table>");
-    private static final Pattern LIST_PRICE_PATTERN = Pattern.compile("List Price:<\\/b><\\/td><td .*?>(.*)<\\/td>");
-    private static final Pattern PRICE_PATTERN = Pattern.compile("[^\\s]Price:<\\/b><\\/td><td .*?><span .*?>(.*)<\\/span><\\/td>");
+    private static final Pattern TITLE_PATTERN = Pattern.compile("<a .*?><b>(.*)</b><\\/a><br>\\s[\\r\\n]*<table>");
+    private static final Pattern LIST_PRICE_PATTERN = Pattern.compile("List Price:<\\/b><\\/td><td .*?><s>(.*)</s><\\/td>");
+    private static final Pattern PRICE_PATTERN = Pattern.compile("[^\\s]Price:<\\/b><\\/td><td .*?><span .*?><b>(.*)</b><\\/span><\\/td>");
     private static final Pattern SAVING_PATTERN = Pattern.compile("You Save:<\\/b><\\/td><td .*?><span .*?>(.*) \\(\\d+%\\)<\\/span><\\/td>");
     private static final Pattern SAVING_PERCENT_PATTERN = Pattern.compile("You Save:<\\/b><\\/td><td .*?><span .*?>.+? (\\(\\d+%\\))<\\/span><\\/td>");
-    private static final Pattern CONTENT_PATTERN = Pattern.compile("You Save:.*[\\r\\n]+.*[\\r\\n]+.*<td .*?><span .*?>((.|\\r|\\n)*?)<\\/span><br>");
+    private static final Pattern CONTENT_PATTERN = Pattern.compile("You Save:.*[\\r\\n]+.*[\\r\\n]+.*<td .*?><span .*?>((.|\\r|\\n)*?)<br>");
 
     public OverstockRegexParser(String pageContent) {
         super(pageContent);

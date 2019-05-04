@@ -1,7 +1,10 @@
 package si.fri.kozelj.parsers.xpath;
 
 import com.google.gson.Gson;
-import org.htmlcleaner.*;
+import org.htmlcleaner.CleanerProperties;
+import org.htmlcleaner.HtmlCleaner;
+import org.htmlcleaner.PrettyXmlSerializer;
+import org.htmlcleaner.TagNode;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -110,10 +113,6 @@ public abstract class AbstractXPathParser implements Parser {
 
     Gson getGson() {
         return gson;
-    }
-
-    private String cleanMatch(String match) {
-        return match.replaceAll("\\n", " ").replaceAll("[\\t]", "").trim();
     }
 
     String getNodeString(Node node) {
