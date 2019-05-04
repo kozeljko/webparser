@@ -1,9 +1,9 @@
 package si.fri.kozelj.parsers.regex;
 
+import si.fri.kozelj.Utility;
 import si.fri.kozelj.models.RtvModel;
 
 import java.util.List;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
@@ -26,7 +26,7 @@ public class RtvRegexParser extends AbstractRegexParser {
         List<String> titles = getMatches(TITLE_PATTERN, true);
         List<String> subtitles = getMatches(SUBTITLE_PATTERN, true);
         List<String> leads = getMatches(LEAD_PATTERN, true);
-        List<String> contents = getMatches(CONTENT_PATTERN, false).stream().map(this::cleanContent).collect(Collectors.toList());
+        List<String> contents = getMatches(CONTENT_PATTERN, false).stream().map(Utility::cleanRtvContent).collect(Collectors.toList());
 
         RtvModel model = new RtvModel.Builder()
                 .author(authors.get(0))
@@ -38,20 +38,5 @@ public class RtvRegexParser extends AbstractRegexParser {
                 .build();
 
         return getGson().toJson(model);
-    }
-
-    private String cleanContent(String rawString) {
-        Matcher matcher = Pattern.compile("<p.*?>(.*?)<\\/p>").matcher(rawString);
-        StringBuilder builder = new StringBuilder();
-        while (matcher.find()) {
-            String rawSubstring = rawString.substring(matcher.start(1), matcher.end(1));
-            builder.append(rawSubstring);
-        }
-
-        return builder.toString().replaceAll("<iframe.*?\\/iframe>", "")
-                      .replaceAll("<strong>", "")
-                      .replaceAll("<\\/strong>(?:<br>|\\s)-", " ")
-                      .replaceAll("-", ",")
-                      .replaceAll("<\\/?.*?>", "");
     }
 }

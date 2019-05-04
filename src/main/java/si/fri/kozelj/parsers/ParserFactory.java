@@ -4,6 +4,7 @@ import si.fri.kozelj.parsers.regex.BookRegexParser;
 import si.fri.kozelj.parsers.regex.OverstockRegexParser;
 import si.fri.kozelj.parsers.regex.RtvRegexParser;
 import si.fri.kozelj.parsers.xpath.OverstockXPathParser;
+import si.fri.kozelj.parsers.xpath.RtvXPathParser;
 
 import java.util.Arrays;
 
@@ -44,8 +45,8 @@ public class ParserFactory {
         switch (PageType.getType(fileName)) {
             case OVERSTOCK:
                 return new OverstockXPathParser(fileContent);
-//            case RTV:
-//                return new RtvRegexParser(fileContent);
+            case RTV:
+                return new RtvXPathParser(fileContent);
 //            case BOOKS:
 //                return new BookRegexParser(fileContent);
             default:
