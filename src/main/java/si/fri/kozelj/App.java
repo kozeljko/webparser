@@ -1,6 +1,7 @@
 package si.fri.kozelj;
 
 import si.fri.kozelj.regex.AbstractRegexParser;
+import si.fri.kozelj.regex.BookRegexParser;
 import si.fri.kozelj.regex.OverstockRegexParser;
 import si.fri.kozelj.regex.RtvRegexParser;
 
@@ -49,6 +50,9 @@ public class App {
             case RTV:
                 regexParser = new RtvRegexParser(fileContent);
                 break;
+            case BOOKS:
+                regexParser = new BookRegexParser(fileContent);
+                break;
             default:
                 throw new RuntimeException("Unknown file name");
         }
@@ -72,6 +76,7 @@ public class App {
     private enum PageType {
         OVERSTOCK("jewelry"),
         RTV("rtv"),
+        BOOKS("books"),
         NOT_FOUND("");
 
         private final String filePrefix;

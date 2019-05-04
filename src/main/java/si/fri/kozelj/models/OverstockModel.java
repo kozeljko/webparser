@@ -7,7 +7,7 @@ import java.util.List;
 
 public class OverstockModel {
     @SerializedName("data")
-    List<OverstockItem> overstockItems = new ArrayList<>();
+    private List<OverstockItem> overstockItems;
 
     public OverstockModel(List<OverstockItem> overstockItems) {
         this.overstockItems = overstockItems;
