@@ -1,17 +1,14 @@
 package si.fri.kozelj;
 
-import si.fri.kozelj.regex.AbstractRegexParser;
-import si.fri.kozelj.regex.BookRegexParser;
-import si.fri.kozelj.regex.OverstockRegexParser;
-import si.fri.kozelj.regex.RtvRegexParser;
+import si.fri.kozelj.parsers.Parser;
+import si.fri.kozelj.parsers.ParserFactory;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.Arrays;
+import java.nio.charset.StandardCharsets;
 
-/**
- * Hello world!
- */
 public class App {
     private static final String PAGE_PATH = "/pages/";
 
@@ -23,46 +20,26 @@ public class App {
         String method = args[0];
         String file = args[1];
 
-        switch (method) {
-            case "regex":
-                handleRegex(file);
-                break;
-            case "xpath":
-            default:
-                throw new RuntimeException("Unknown method");
-        }
+        parseFile(method, file);
     }
 
-    private static void handleRegex(String file) {
+    private static void parseFile(String method, String fileName) {
         String fileContent;
         try {
-            fileContent = loadFromFile(file);
+            fileContent = loadFromFile(fileName);
         } catch (IOException e) {
-            e.printStackTrace();
-            return;
+            throw new RuntimeException("Error while loading from file");
         }
 
-        AbstractRegexParser regexParser;
-        switch (PageType.getType(file)) {
-            case OVERSTOCK:
-                regexParser = new OverstockRegexParser(fileContent);
-                break;
-            case RTV:
-                regexParser = new RtvRegexParser(fileContent);
-                break;
-            case BOOKS:
-                regexParser = new BookRegexParser(fileContent);
-                break;
-            default:
-                throw new RuntimeException("Unknown file name");
-        }
+        ParserFactory parserFactory = new ParserFactory(method, fileName);
+        Parser parser = parserFactory.getParser(fileContent);
 
-        System.out.println(regexParser.parseJson());
+        System.out.println(parser.parseJson());
     }
 
     private static String loadFromFile(String fileName) throws IOException {
         URL url = App.class.getResource(PAGE_PATH + fileName);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8"));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), StandardCharsets.UTF_8));
         StringBuilder stringBuilder = new StringBuilder();
 
         String line;
@@ -71,26 +48,5 @@ public class App {
         }
 
         return stringBuilder.toString();
-    }
-
-    private enum PageType {
-        OVERSTOCK("jewelry"),
-        RTV("rtv"),
-        BOOKS("books"),
-        NOT_FOUND("");
-
-        private final String filePrefix;
-
-        PageType(String filePrefix) {
-            this.filePrefix = filePrefix;
-        }
-
-        public String getFilePrefix() {
-            return filePrefix;
-        }
-
-        public static PageType getType(final String fileName) {
-            return Arrays.stream(PageType.values()).filter(o -> fileName.startsWith(o.getFilePrefix())).findAny().orElse(NOT_FOUND);
-        }
     }
 }
