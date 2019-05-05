@@ -21,8 +21,10 @@ public class ParserFactory {
     public Parser getParser(String fileContent) {
         switch (method) {
             case "regex":
+            case "regex-via-path":
                 return getRegexParser(fileContent);
             case "xpath":
+            case "xpath-via-path":
                 return getXPathParser(fileContent);
             default:
                 throw new RuntimeException("Unknown method");
@@ -56,10 +58,10 @@ public class ParserFactory {
     }
 
     private enum PageType {
-        OVERSTOCK("jewelry"),
-        RTV("rtv"),
-        BOOKS("books"),
-        NOT_FOUND("");
+        OVERSTOCK("^.*jewelry\\d+.html$"),
+        RTV("^.*rtv\\d+.html$"),
+        BOOKS("^.*books\\d+.html$"),
+        NOT_FOUND("$a");
 
         private final String filePrefix;
 
@@ -67,12 +69,15 @@ public class ParserFactory {
             this.filePrefix = filePrefix;
         }
 
-        public String getFilePrefix() {
+        public String getFilePattern() {
             return filePrefix;
         }
 
         public static PageType getType(final String fileName) {
-            return Arrays.stream(PageType.values()).filter(o -> fileName.startsWith(o.getFilePrefix())).findAny().orElse(NOT_FOUND);
+            return Arrays.stream(PageType.values())
+                         .filter(o -> fileName.matches(o.getFilePattern()))
+                         .findAny()
+                         .orElse(NOT_FOUND);
         }
     }
 }
