@@ -9,6 +9,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import si.fri.kozelj.Utility;
 import si.fri.kozelj.parsers.Parser;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -75,7 +76,7 @@ public abstract class AbstractXPathParser implements Parser {
 
         List<String> foundMatches = new ArrayList<>();
         for (int i = 0; i < nodeList.getLength(); i++) {
-            String nodeValue = getNodeString(nodeList.item(i));
+            String nodeValue = Utility.getNodeString(nodeList.item(i));
             foundMatches.add(nodeValue);
         }
 
@@ -113,18 +114,5 @@ public abstract class AbstractXPathParser implements Parser {
 
     Gson getGson() {
         return gson;
-    }
-
-    String getNodeString(Node node) {
-        try {
-            StringWriter writer = new StringWriter();
-            Transformer transformer = TransformerFactory.newInstance().newTransformer();
-            transformer.transform(new DOMSource(node), new StreamResult(writer));
-            String output = writer.toString();
-            return output.substring(output.indexOf("?>") + 2);
-        } catch (TransformerException e) {
-            e.printStackTrace();
-        }
-        return node.getTextContent();
     }
 }

@@ -1,5 +1,13 @@
 package si.fri.kozelj;
 
+import org.w3c.dom.Node;
+
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import java.io.StringWriter;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -24,4 +32,16 @@ public class Utility {
                       .replaceAll("\\s+", " "); // shorten multiple whitespace occurrences
     }
 
+    public static String getNodeString(Node node) {
+        try {
+            StringWriter writer = new StringWriter();
+            Transformer transformer = TransformerFactory.newInstance().newTransformer();
+            transformer.transform(new DOMSource(node), new StreamResult(writer));
+            String output = writer.toString();
+            return output.substring(output.indexOf("?>") + 2);
+        } catch (TransformerException e) {
+            e.printStackTrace();
+        }
+        return node.getTextContent();
+    }
 }
