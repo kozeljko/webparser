@@ -16,9 +16,9 @@ The saved pages are located /src/main/resources/pages/books*.html Might have to 
 
 ### Build the artifact
 
-* git clone https://github.com/kozeljko/webparser.git
-* cd webparser
-* mvn clean package
+* ``git clone https://github.com/kozeljko/webparser.git`` (or use the source from the .zip file in the 'implementation' folder)
+* ``cd webparser`` (or ``cd implementation``, if using the source code in the )
+* ``mvn clean package`` (be sure to be in the same directory as the pom.xml file)
 
 This will result in two artifacts being built in the /target folder. Use the "webparser-1.0-SNAPSHOT-jar-with-dependencies.jar"
 artifact. It's a fat jar and it includes all dependencies it needs to run.
