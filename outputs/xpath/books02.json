@@ -1,0 +1,804 @@
+{
+  "data":[
+    {
+      "Title":"A Clockwork Orange",
+      "Author":"Anthony Burgess",
+      "AvgRating":"3.99",
+      "Ratings":"527,220",
+      "Score":"13,498",
+      "Votes":"145"
+    },
+    {
+      "Title":"Holy Bible: New International Version",
+      "Author":"Anonymous",
+      "AvgRating":"4.60",
+      "Ratings":"56,025",
+      "Score":"10,644",
+      "Vo tes":"107"
+    },
+    {
+      "Title":"Naked Lunch",
+      "Author":"William S. Burroughs",
+      "AvgRating":"3.45",
+      "Ratings":"68,016",
+      "Score":"8,976",
+      "Votes":"91"
+    },
+    {
+      "Title":"The Wasp Factory",
+      "Author":"Iain Banks",
+      "AvgRating":"3.84",
+      "Ratings":"61,220",
+      "Score":"8,670",
+      "Votes":"95"
+    },
+    {
+      "Title":"Fi ght Club",
+      "Author":"Chuck Palahniuk",
+      "AvgRating":"4.20",
+      "Ratings":"437,059",
+      "Score":"8,571",
+      "Votes":"95"
+    },
+    {
+      "Title":"Invisible Monsters",
+      "Author":"Chuck Palahniuk",
+      "AvgRating":"4.00",
+      "Ratings":"110,558",
+      "Score":"8,103",
+      "Votes":"89"
+    },
+    {
+      "Title":"American Psycho",
+      "Autho r":"Bret Easton Ellis",
+      "AvgRating":"3.82",
+      "Ratings":"204,261",
+      "Score":"8,082",
+      "Votes":"89"
+    },
+    {
+      "Title":"One Flew Over the Cuckoo\u0027s Nest",
+      "Author":"Ken Kesey",
+      "AvgRating":"4.19",
+      "Ratings":"560,285",
+      "Score":"7,963",
+      "Votes":"88"
+    },
+    {
+      "Title":"Alice\u0027s Adventures i n Wonderland \u0026 Through the Looking-Glass",
+      "Author":"Lewis Carroll",
+      "AvgRating":"4.07",
+      "Ratings":"419,776",
+      "Score":"7,915",
+      "Votes":"81"
+    },
+    {
+      "Title":"Fahrenheit 451",
+      "Author":"Ray Bradbury",
+      "AvgRating":"3.98",
+      "Ratings":"1,399,152",
+      "Score":"7,655",
+      "Votes":"86"
+    },
+    {
+      "T itle":"Lunar Park",
+      "Author":"Bret Easton Ellis",
+      "AvgRating":"3.62",
+      "Ratings":"21,189",
+      "Score":"7,508",
+      "Votes":"83"
+    },
+    {
+      "Title":"Factotum",
+      "Author":"Charles Bukowski",
+      "AvgRating":"3.96",
+      "Ratings":"48,081",
+      "Score":"7,487",
+      "Votes":"83"
+    },
+    {
+      "Title":"Requiem for a Dream",
+      "A uthor":"Hubert Selby Jr.",
+      "AvgRating":"4.11",
+      "Ratings":"45,893",
+      "Score":"7,380",
+      "Votes":"81"
+    },
+    {
+      "Title":"Trainspotting",
+      "Author":"Irvine Welsh",
+      "AvgRating":"4.09",
+      "Ratings":"126,471",
+      "Score":"7,331",
+      "Votes":"81"
+    },
+    {
+      "Title":"The Elephant Tree",
+      "Author":"R.D. Ronald",
+      " AvgRating":"3.55",
+      "Ratings":"16,429",
+      "Score":"7,208",
+      "Votes":"81"
+    },
+    {
+      "Title":"House of Leaves",
+      "Author":"Mark Z. Danielewski",
+      "AvgRating":"4.12",
+      "Ratings":"105,500",
+      "Score":"7,185",
+      "Votes":"73"
+    },
+    {
+      "Title":"Skagboys",
+      "Author":"Irvine Welsh",
+      "AvgRating":"4.06",
+      "Ratings ":"9,256",
+      "Score":"7,034",
+      "Votes":"79"
+    },
+    {
+      "Title":"Fear and Loathing in Las Vegas",
+      "Author":"Hunter S. Thompson",
+      "AvgRating":"4.08",
+      "Ratings":"271,237",
+      "Score":"6,559",
+      "Votes":"68"
+    },
+    {
+      "Title":"Slaughterhouse-Five",
+      "Author":"Kurt Vonnegut",
+      "AvgRating":"4.07",
+      "Ratings":"1,009,443",
+      "Score":"5,282",
+      "Votes":"56"
+    },
+    {
+      "Title":"Codex Seraphinianus. Ein Orbis Pictus des Universums der Phantasie.",
+      "Author":"Luigi Serafini",
+      "AvgRating":"4.52",
+      "Ratings":"2,730",
+      "Score":"4,443",
+      "Votes":"45"
+    },
+    {
+      "Title":"The Zombie Room",
+      "Author":"R.D. Ronald",
+      "AvgRating":"3.64",
+      "Ratings":"18,525",
+      "Score":"4,268",
+      "Votes":"48"
+    },
+    {
+      "Title":"The Master and Margarita",
+      "Author":"Mikhail Bulgakov",
+      "AvgRating":"4.31",
+      "Ratings":"198,615",
+      "Score":"4,037",
+      "Votes":"42"
+    },
+    {
+      "Title":"The Metamorphosis",
+      "Author":"Franz Kafka",
+      "AvgRating":"3.80",
+      "Ratings":"518,059",
+      "Score":"3,787",
+      "Votes":"40"
+    },
+    {
+      "Title":"Geek Love",
+      "Author":"Katherine Dunn",
+      "AvgRating":"3.97",
+      "Ratings":"50,029",
+      "Score":"3,732",
+      "Votes":"39"
+    },
+    {
+      "Title":"Finnegans Wake",
+      "Author":"James Joyce",
+      "AvgRating":"3.67",
+      "Ratings":"10,931",
+      "Score ":"3,730",
+      "Votes":"38"
+    },
+    {
+      "Title":"Gravity\u0027s Rainbow",
+      "Author":"Thomas Pynchon",
+      "AvgRating":"4.03",
+      "Ratings":"31,793",
+      "Score":"3,616",
+      "Votes":"37"
+    },
+    {
+      "Title":"Life of Pi",
+      "Author":"Yann Martel",
+      "AvgRating":"3.90",
+      "Ratings":"1,188,446",
+      "Score":"3,412",
+      "Votes":"35 "
+    },
+    {
+      "Title":"A Scanner Darkly",
+      "Author":"Philip K. Dick",
+      "AvgRating":"4.03",
+      "Ratings":"74,570",
+      "Score":"3,313",
+      "Votes":"36"
+    },
+    {
+      "Title":"The Wind-Up Bird Chronicle",
+      "Author":"Haruki Murakami",
+      "AvgRating":"4.17",
+      "Ratings":"187,677",
+      "Score":"3,119",
+      "Votes":"32"
+    },
+    {
+      "Titl e":"If on a Winter\u0027s Night a Traveler",
+      "Author":"Italo Calvino",
+      "AvgRating":"4.06",
+      "Ratings":"64,532",
+      "Score":"2,906",
+      "Votes":"31"
+    },
+    {
+      "Title":"Ubik",
+      "Author":"Philip K. Dick",
+      "AvgRating":"4.10",
+      "Ratings":"71,460",
+      "Score":"2,844",
+      "Votes":"31"
+    },
+    {
+      "Title":"Rant",
+      "A uthor":"Chuck Palahniuk",
+      "AvgRating":"3.82",
+      "Ratings":"57,221",
+      "Score":"2,686",
+      "Votes":"29"
+    },
+    {
+      "Title":"The Hitchhiker\u0027s Guide to the Galaxy (Hitchhiker\u0027s Guide to the Galaxy, #1)",
+      "Author":"Douglas Adams",
+      "AvgRating":"4.22",
+      "Ratings":"1,216,655",
+      "Score":" 2,613",
+      "Votes":"28"
+    },
+    {
+      "Title":"The New York Trilogy",
+      "Author":"Paul Auster",
+      "AvgRating":"3.91",
+      "Ratings":"51,100",
+      "Score":"2,593",
+      "Votes":"28"
+    },
+    {
+      "Title":"Smashed, Squashed, Splattered, Chewed, Chunked and Spewed",
+      "Author":"Lance Carbuncle",
+      "AvgRating":"3.51",
+      "Ratin gs":"995",
+      "Score":"2,486",
+      "Votes":"25"
+    },
+    {
+      "Title":"The Illuminatus! Trilogy",
+      "Author":"Robert Shea",
+      "AvgRating":"4.01",
+      "Ratings":"13,863",
+      "Score":"2,406",
+      "Votes":"25"
+    },
+    {
+      "Title":"Brave New World",
+      "Author":"Aldous Huxley",
+      "AvgRating":"3.98",
+      "Ratings":"1,252,362",
+      "Scor e":"2,389",
+      "Votes":"26"
+    },
+    {
+      "Title":"Wicked: The Life and Times of the Wicked Witch of the West (The Wicked Years, #1)",
+      "Author":"Gregory Maguire",
+      "AvgRating":"3.53",
+      "Ratings":"545,729",
+      "Score":"2,374",
+      "Votes":"25"
+    },
+    {
+      "Title":"Infinite Jest",
+      "Author":"David Foster Wal lace",
+      "AvgRating":"4.30",
+      "Ratings":"65,802",
+      "Score":"2,187",
+      "Votes":"23"
+    },
+    {
+      "Title":"Crash",
+      "Author":"J.G. Ballard",
+      "AvgRating":"3.56",
+      "Ratings":"17,794",
+      "Score":"2,170",
+      "Votes":"24"
+    },
+    {
+      "Title":"Flatland: A Romance of Many Dimensions",
+      "Author":"Edwin A. Abbott",
+      "AvgR ating":"3.82",
+      "Ratings":"46,490",
+      "Score":"1,942",
+      "Votes":"20"
+    },
+    {
+      "Title":"The Third Policeman",
+      "Author":"Flann O\u0027Brien",
+      "AvgRating":"4.02",
+      "Ratings":"14,344",
+      "Score":"1,853",
+      "Votes":"19"
+    },
+    {
+      "Title":"VALIS (VALIS Trilogy, #1)",
+      "Author":"Philip K. Dick",
+      "AvgRating ":"3.93",
+      "Ratings":"21,657",
+      "Score":"1,849",
+      "Votes":"20"
+    },
+    {
+      "Title":"The Life and Opinions of Tristram Shandy, Gentleman",
+      "Author":"Laurence Sterne",
+      "AvgRating":"3.74",
+      "Ratings":"17,830",
+      "Score":"1,718",
+      "Votes":"18"
+    },
+    {
+      "Title":"Kafka on the Shore",
+      "Author":"Haruki Mu rakami",
+      "AvgRating":"4.13",
+      "Ratings":"246,713",
+      "Score":"1,697",
+      "Votes":"18"
+    },
+    {
+      "Title":"Breakfast of Champions",
+      "Author":"Kurt Vonnegut",
+      "AvgRating":"4.08",
+      "Ratings":"204,520",
+      "Score":"1,627",
+      "Votes":"18"
+    },
+    {
+      "Title":"John Dies at the End (John Dies at the End, #1)",
+      " Author":"David Wong",
+      "AvgRating":"3.91",
+      "Ratings":"54,103",
+      "Score":"1,610",
+      "Votes":"17"
+    },
+    {
+      "Title":"Notes from Underground, White Nights, The Dream of a Ridiculous Man, and Selections from The House of the Dead",
+      "Author":"Fyodor Dostoyevsky",
+      "AvgRating":"4.17",
+      "Rat ings":"71,765",
+      "Score":"1,593",
+      "Votes":"17"
+    },
+    {
+      "Title":"Lord of the Flies",
+      "Author":"William Golding",
+      "AvgRating":"3.67",
+      "Ratings":"1,935,558",
+      "Score":"1,583",
+      "Votes":"18"
+    },
+    {
+      "Title":"The Stranger",
+      "Author":"Albert Camus",
+      "AvgRating":"3.97",
+      "Ratings":"586,263",
+      "Score ":"1,530",
+      "Votes":"17"
+    },
+    {
+      "Title":"Ulysses",
+      "Author":"James Joyce",
+      "AvgRating":"3.74",
+      "Ratings":"98,682",
+      "Score":"1,466",
+      "Votes":"17"
+    },
+    {
+      "Title":"The Voynich Manuscript",
+      "Author":"Unknown",
+      "AvgRating":"4.19",
+      "Ratings":"330",
+      "Score":"1,452",
+      "Votes":"15"
+    },
+    {
+      "Title":"Las t Exit to Brooklyn",
+      "Author":"Hubert Selby Jr.",
+      "AvgRating":"3.92",
+      "Ratings":"20,272",
+      "Score":"1,403",
+      "Votes":"16"
+    },
+    {
+      "Title":"The Sound and the Fury",
+      "Author":"William Faulkner",
+      "AvgRating":"3.86",
+      "Ratings":"146,612",
+      "Score":"1,392",
+      "Votes":"15"
+    },
+    {
+      "Title":"The Bell Jar",
+      "Author":"Sylvia Plath",
+      "AvgRating":"3.99",
+      "Ratings":"511,072",
+      "Score":"1,325",
+      "Votes":"14"
+    },
+    {
+      "Title":"Story of the Eye",
+      "Author":"Georges Bataille",
+      "AvgRating":"3.68",
+      "Ratings":"13,339",
+      "Score":"1,313",
+      "Votes":"14"
+    },
+    {
+      "Title":"The Metamorphosis and Other Stor ies",
+      "Author":"Franz Kafka",
+      "AvgRating":"4.03",
+      "Ratings":"48,084",
+      "Score":"1,299",
+      "Votes":"14"
+    },
+    {
+      "Title":"Haunted",
+      "Author":"Chuck Palahniuk",
+      "AvgRating":"3.59",
+      "Ratings":"79,160",
+      "Score":"1,267",
+      "Votes":"14"
+    },
+    {
+      "Title":"The Satanic Verses",
+      "Author":"Salman Rushdie",
+      "AvgRating":"3.71",
+      "Ratings":"48,286",
+      "Score":"1,246",
+      "Votes":"13"
+    },
+    {
+      "Title":"Heart of a Dog",
+      "Author":"Mikhail Bulgakov",
+      "AvgRating":"4.13",
+      "Ratings":"33,073",
+      "Score":"1,243",
+      "Votes":"14"
+    },
+    {
+      "Title":"The Call of Cthulhu and Other Weird Stories",
+      "Author":"H.P. Love craft",
+      "AvgRating":"4.22",
+      "Ratings":"32,922",
+      "Score":"1,216",
+      "Votes":"13"
+    },
+    {
+      "Title":"Angels",
+      "Author":"Denis Johnson",
+      "AvgRating":"3.88",
+      "Ratings":"3,768",
+      "Score":"1,198",
+      "Votes":"13"
+    },
+    {
+      "Title":"Choke",
+      "Author":"Chuck Palahniuk",
+      "AvgRating":"3.70",
+      "Ratings":"174,69 5",
+      "Score":"1,195",
+      "Votes":"13"
+    },
+    {
+      "Title":"Piercing",
+      "Author":"Ry? Murakami",
+      "AvgRating":"3.56",
+      "Ratings":"5,778",
+      "Score":"1,162",
+      "Votes":"14"
+    },
+    {
+      "Title":"Animal Farm",
+      "Author":"George Orwell",
+      "AvgRating":"3.91",
+      "Ratings":"2,328,758",
+      "Score":"1,159",
+      "Votes":"13"
+    },
+    {
+      " Title":"Hunger",
+      "Author":"Knut Hamsun",
+      "AvgRating":"4.08",
+      "Ratings":"35,146",
+      "Score":"1,153",
+      "Votes":"13"
+    },
+    {
+      "Title":"Moon Palace",
+      "Author":"Paul Auster",
+      "AvgRating":"3.98",
+      "Ratings":"17,694",
+      "Score":"1,153",
+      "Votes":"13"
+    },
+    {
+      "Title":"Notes from Underground",
+      "Author":" Fyodor Dostoyevsky",
+      "AvgRating":"4.16",
+      "Ratings":"57,915",
+      "Score":"1,147",
+      "Votes":"13"
+    },
+    {
+      "Title":"The World According to Garp",
+      "Author":"John Irving",
+      "AvgRating":"4.08",
+      "Ratings":"191,925",
+      "Score":"1,123",
+      "Votes":"12"
+    },
+    {
+      "Title":"The Road",
+      "Author":"Cormac McCarthy",
+      "AvgRating":"3.96",
+      "Ratings":"635,346",
+      "Score":"1,120",
+      "Votes":"13"
+    },
+    {
+      "Title":"Une Semaine de Bonté",
+      "Author":"Max Ernst",
+      "AvgRating":"4.21",
+      "Ratings":"2,463",
+      "Score":"1,103",
+      "Votes":"12"
+    },
+    {
+      "Title":"Cat\u0027s Cradle",
+      "Author":"Kurt Vonnegut",
+      "AvgRating":"4.17",
+      "R atings":"308,550",
+      "Score":"1,095",
+      "Votes":"12"
+    },
+    {
+      "Title":"Like a Velvet Glove Cast in Iron",
+      "Author":"Daniel Clowes",
+      "AvgRating":"4.07",
+      "Ratings":"6,425",
+      "Score":"1,082",
+      "Votes":"11"
+    },
+    {
+      "Title":"Tampa",
+      "Author":"Alissa Nutting",
+      "AvgRating":"3.36",
+      "Ratings":"15,465",
+      "Score":"1,075",
+      "Votes":"12"
+    },
+    {
+      "Title":"The Raw Shark Texts",
+      "Author":"Steven Hall",
+      "AvgRating":"3.87",
+      "Ratings":"15,252",
+      "Score":"1,074",
+      "Votes":"11"
+    },
+    {
+      "Title":"The Brothers Karamazov",
+      "Author":"Fyodor Dostoyevsky",
+      "AvgRating":"4.32",
+      "Ratings":"206,145",
+      "Score":"1 ,074",
+      "Votes":"12"
+    },
+    {
+      "Title":"The Catcher in the Rye",
+      "Author":"J.D. Salinger",
+      "AvgRating":"3.80",
+      "Ratings":"2,414,642",
+      "Score":"1,057",
+      "Votes":"12"
+    },
+    {
+      "Title":"The Broom of the System",
+      "Author":"David Foster Wallace",
+      "AvgRating":"3.84",
+      "Ratings":"17,448",
+      "Score":"1 ,054",
+      "Votes":"11"
+    },
+    {
+      "Title":"Maldoror and the Complete Works",
+      "Author":"Comte de Lautréamont",
+      "AvgRating":"4.28",
+      "Ratings":"2,935",
+      "Score":"1,034",
+      "Votes":"11"
+    },
+    {
+      "Title":"Molloy, Malone Dies, The Unnamable (The Trilogy, #1-3)",
+      "Author":"Samuel Beckett",
+      "AvgRating":"4.28",
+      "Ratings":"7,632",
+      "Score":"1,016",
+      "Votes":"11"
+    },
+    {
+      "Title":"Save Yourself",
+      "Author":"Kelly Braffet",
+      "AvgRating":"3.43",
+      "Ratings":"3,480",
+      "Score":"1,016",
+      "Votes":"11"
+    },
+    {
+      "Title":"Wreck This Journal",
+      "Author":"Keri Smith",
+      "AvgRating":"4.16",
+      "Ratings":"14,043",
+      "S core":"992",
+      "Votes":"10"
+    },
+    {
+      "Title":"The Dharma Bums",
+      "Author":"Jack Kerouac",
+      "AvgRating":"3.93",
+      "Ratings":"73,937",
+      "Score":"989",
+      "Votes":"11"
+    },
+    {
+      "Title":"The Man in the High Castle",
+      "Author":"Philip K. Dick",
+      "AvgRating":"3.63",
+      "Ratings":"141,630",
+      "Score":"979",
+      "Vote s":"11"
+    },
+    {
+      "Title":"Nutshell",
+      "Author":"Ian McEwan",
+      "AvgRating":"3.69",
+      "Ratings":"36,122",
+      "Score":"975",
+      "Votes":"11"
+    },
+    {
+      "Title":"Crime and Punishment",
+      "Author":"Fyodor Dostoyevsky",
+      "AvgRating":"4.20",
+      "Ratings":"531,409",
+      "Score":"967",
+      "Votes":"11"
+    },
+    {
+      "Title":"The Atroc ity Exhibition",
+      "Author":"J.G. Ballard",
+      "AvgRating":"3.82",
+      "Ratings":"4,677",
+      "Score":"952",
+      "Votes":"10"
+    },
+    {
+      "Title":"Tropic of Cancer",
+      "Author":"Henry Miller",
+      "AvgRating":"3.70",
+      "Ratings":"56,141",
+      "Score":"931",
+      "Votes":"11"
+    },
+    {
+      "Title":"Vurt",
+      "Author":"Jeff Noon",
+      "AvgR ating":"4.06",
+      "Ratings":"7,997",
+      "Score":"922",
+      "Votes":"10"
+    },
+    {
+      "Title":"1Q84",
+      "Author":"Haruki Murakami",
+      "AvgRating":"3.91",
+      "Ratings":"169,075",
+      "Score":"920",
+      "Votes":"10"
+    },
+    {
+      "Title":"Ficciones",
+      "Author":"Jorge Luis Borges",
+      "AvgRating":"4.46",
+      "Ratings":"41,999",
+      "Score":"918",
+      "Votes":"10"
+    },
+    {
+      "Title":"Frisk",
+      "Author":"Dennis Cooper",
+      "AvgRating":"3.59",
+      "Ratings":"2,084",
+      "Score":"883",
+      "Votes":"10"
+    },
+    {
+      "Title":"The Great and Secret Show (Book of the Art #1)",
+      "Author":"Clive Barker",
+      "AvgRating":"4.05",
+      "Ratings":"27,360",
+      "Score":"874",
+      "Vo tes":"9"
+    },
+    {
+      "Title":"Tropic of Capricorn",
+      "Author":"Henry Miller",
+      "AvgRating":"3.83",
+      "Ratings":"15,289",
+      "Score":"859",
+      "Votes":"10"
+    },
+    {
+      "Title":"We Have Always Lived in the Castle",
+      "Author":"Shirley Jackson",
+      "AvgRating":"4.02",
+      "Ratings":"82,388",
+      "Score":"830",
+      "Votes":" 9"
+    },
+    {
+      "Title":"Dirk Gently\u0027s Holistic Detective Agency (Dirk Gently #1)",
+      "Author":"Douglas Adams",
+      "AvgRating":"3.98",
+      "Ratings":"107,545",
+      "Score":"796",
+      "Votes":"9"
+    },
+    {
+      "Title":"The Goldfinch",
+      "Author":"Donna Tartt",
+      "AvgRating":"3.90",
+      "Ratings":"569,528",
+      "Score":"7 87",
+      "Votes":"9"
+    },
+    {
+      "Title":"Crooked Little Vein",
+      "Author":"Warren Ellis",
+      "AvgRating":"3.82",
+      "Ratings":"8,747",
+      "Score":"784",
+      "Votes":"8"
+    },
+    {
+      "Title":"L\u0027Écume des jours",
+      "Author":"Boris Vian",
+      "AvgRating":"4.00",
+      "Ratings":"23,122",
+      "Score":"752",
+      "Votes":"8"
+    },
+    {
+      "Title":"Audition",
+      "Author":"Ry? Murakami",
+      "AvgRating":"3.49",
+      "Ratings":"5,953",
+      "Score":"735",
+      "Votes":"9"
+    }
+  ]
+}

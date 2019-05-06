@@ -1,0 +1,804 @@
+{
+  "data":[
+    {
+      "Title":"Ender\u0027s Game (Ender\u0027s Saga, #1)",
+      "Author":"Orson Scott Card",
+      "AvgRating":"4.30",
+      "Ratings":"1,000,341",
+      "Score":"561,061",
+      "Votes":"5,678"
+    },
+    {
+      "Title":"Dune (Dune Chronicles, #1)",
+      "Author":"Frank Herbert",
+      "AvgRating":"4.22",
+      "Ratings":"612,38 6",
+      "Score":"455,588",
+      "Votes":"4,626"
+    },
+    {
+      "Title":"1984",
+      "Author":"George Orwell",
+      "AvgRating":"4.17",
+      "Ratings":"2,566,935",
+      "Score":"354,603",
+      "Votes":"3,635"
+    },
+    {
+      "Title":"Fahrenheit 451",
+      "Author":"Ray Bradbury",
+      "AvgRating":"3.98",
+      "Ratings":"1,399,200",
+      "Score":"253,655",
+      " Votes":"2,621"
+    },
+    {
+      "Title":"Brave New World",
+      "Author":"Aldous Huxley",
+      "AvgRating":"3.98",
+      "Ratings":"1,252,386",
+      "Score":"209,201",
+      "Votes":"2,173"
+    },
+    {
+      "Title":"Foundation (Foundation #1)",
+      "Author":"Isaac Asimov",
+      "AvgRating":"4.15",
+      "Ratings":"355,244",
+      "Score":"173,316",
+      "V otes":"1,799"
+    },
+    {
+      "Title":"A Wrinkle in Time (Time Quintet, #1)",
+      "Author":"Madeleine L\u0027Engle",
+      "AvgRating":"4.01",
+      "Ratings":"881,954",
+      "Score":"170,025",
+      "Votes":"1,754"
+    },
+    {
+      "Title":"The Hunger Games (The Hunger Games, #1)",
+      "Author":"Suzanne Collins",
+      "AvgRating":"4.3 3",
+      "Ratings":"5,700,344",
+      "Score":"157,415",
+      "Votes":"1,635"
+    },
+    {
+      "Title":"Slaughterhouse-Five",
+      "Author":"Kurt Vonnegut",
+      "AvgRating":"4.07",
+      "Ratings":"1,009,464",
+      "Score":"136,996",
+      "Votes":"1,433"
+    },
+    {
+      "Title":"The Giver",
+      "Author":"Lois Lowry",
+      "AvgRating":"4.12",
+      "Ratings":" 1,519,909",
+      "Score":"136,986",
+      "Votes":"1,419"
+    },
+    {
+      "Title":"The Ultimate Hitchhiker\u0027s Guide to the Galaxy",
+      "Author":"Douglas Adams",
+      "AvgRating":"4.38",
+      "Ratings":"258,021",
+      "Score":"132,103",
+      "Votes":"1,384"
+    },
+    {
+      "Title":"Stranger in a Strange Land",
+      "Author":"Robert A. Heinlein",
+      "AvgRating":"3.91",
+      "Ratings":"252,759",
+      "Score":"131,956",
+      "Votes":"1,376"
+    },
+    {
+      "Title":"Do Androids Dream of Electric Sheep?",
+      "Author":"Philip K. Dick",
+      "AvgRating":"4.08",
+      "Ratings":"292,546",
+      "Score":"128,879",
+      "Votes":"1,357"
+    },
+    {
+      "Title":"I, Robot (Robot, #0.1)",
+      "Author":"Isaac Asimov",
+      "AvgRating":"4.19",
+      "Ratings":"240,576",
+      "Score":"118,070",
+      "Votes":"1,252"
+    },
+    {
+      "Title":"Neuromancer (Sprawl, #1)",
+      "Author":"William Gibson",
+      "AvgRating":"3.89",
+      "Ratings":"232,524",
+      "Score":"111,977",
+      "Votes":"1,173"
+    },
+    {
+      "Title":"Hyperion (Hyperion C antos, #1)",
+      "Author":"Dan Simmons",
+      "AvgRating":"4.23",
+      "Ratings":"156,028",
+      "Score":"108,593",
+      "Votes":"1,136"
+    },
+    {
+      "Title":"Animal Farm",
+      "Author":"George Orwell",
+      "AvgRating":"3.91",
+      "Ratings":"2,328,824",
+      "Score":"107,970",
+      "Votes":"1,163"
+    },
+    {
+      "Title":"Speaker for the Dead ( Ender\u0027s Saga, #2)",
+      "Author":"Orson Scott Card",
+      "AvgRating":"4.06",
+      "Ratings":"203,177",
+      "Score":"105,355",
+      "Votes":"1,109"
+    },
+    {
+      "Title":"Snow Crash",
+      "Author":"Neal Stephenson",
+      "AvgRating":"4.03",
+      "Ratings":"212,361",
+      "Score":"104,778",
+      "Votes":"1,095"
+    },
+    {
+      "Title":"The Ma rtian Chronicles",
+      "Author":"Ray Bradbury",
+      "AvgRating":"4.13",
+      "Ratings":"183,382",
+      "Score":"102,922",
+      "Votes":"1,092"
+    },
+    {
+      "Title":"The Stand",
+      "Author":"Stephen King",
+      "AvgRating":"4.34",
+      "Ratings":"541,281",
+      "Score":"98,889",
+      "Votes":"1,038"
+    },
+    {
+      "Title":"The Foundation Trilog y (Foundation, #1-3)",
+      "Author":"Isaac Asimov",
+      "AvgRating":"4.40",
+      "Ratings":"82,574",
+      "Score":"97,772",
+      "Votes":"1,037"
+    },
+    {
+      "Title":"The Handmaid\u0027s Tale",
+      "Author":"Margaret Atwood",
+      "AvgRating":"4.09",
+      "Ratings":"1,066,021",
+      "Score":"97,549",
+      "Votes":"1,038"
+    },
+    {
+      "Title":"Jurassic Park (Jurassic Park, #1)",
+      "Author":"Michael Crichton",
+      "AvgRating":"4.00",
+      "Ratings":"727,785",
+      "Score":"90,128",
+      "Votes":"959"
+    },
+    {
+      "Title":"The Fellowship of the Ring (The Lord of the Rings, #1)",
+      "Author":"J.R.R. Tolkien",
+      "AvgRating":"4.35",
+      "Ratings":"2,087,77 6",
+      "Score":"87,264",
+      "Votes":"933"
+    },
+    {
+      "Title":"2001: A Space Odyssey (Space Odyssey, #1)",
+      "Author":"Arthur C. Clarke",
+      "AvgRating":"4.14",
+      "Ratings":"215,145",
+      "Score":"86,400",
+      "Votes":"933"
+    },
+    {
+      "Title":"The Time Machine",
+      "Author":"H.G. Wells",
+      "AvgRating":"3.88",
+      "Ratings":"356,661",
+      "Score":"86,162",
+      "Votes":"931"
+    },
+    {
+      "Title":"Starship Troopers",
+      "Author":"Robert A. Heinlein",
+      "AvgRating":"4.00",
+      "Ratings":"169,235",
+      "Score":"82,342",
+      "Votes":"880"
+    },
+    {
+      "Title":"Flowers for Algernon",
+      "Author":"Daniel Keyes",
+      "AvgRating":"4.11",
+      "Ratings":"412,07 2",
+      "Score":"76,237",
+      "Votes":"826"
+    },
+    {
+      "Title":"The Left Hand of Darkness (Hainish Cycle #4)",
+      "Author":"Ursula K. Le Guin",
+      "AvgRating":"4.06",
+      "Ratings":"97,180",
+      "Score":"76,134",
+      "Votes":"817"
+    },
+    {
+      "Title":"The Lord of the Rings (The Lord of the Rings, #1-3)",
+      "Author":"J. R.R. Tolkien",
+      "AvgRating":"4.49",
+      "Ratings":"496,515",
+      "Score":"73,726",
+      "Votes":"789"
+    },
+    {
+      "Title":"The War of the Worlds",
+      "Author":"H.G. Wells",
+      "AvgRating":"3.81",
+      "Ratings":"211,452",
+      "Score":"67,884",
+      "Votes":"741"
+    },
+    {
+      "Title":"Harry Potter and the Sorcerer\u0027s Stone ( Harry Potter, #1)",
+      "Author":"J.K. Rowling",
+      "AvgRating":"4.47",
+      "Ratings":"5,886,679",
+      "Score":"65,640",
+      "Votes":"709"
+    },
+    {
+      "Title":"Ender\u0027s Shadow (The Shadow Series, #1)",
+      "Author":"Orson Scott Card",
+      "AvgRating":"4.31",
+      "Ratings":"139,768",
+      "Score":"64,268",
+      "Votes":"6 90"
+    },
+    {
+      "Title":"Cat\u0027s Cradle",
+      "Author":"Kurt Vonnegut",
+      "AvgRating":"4.17",
+      "Ratings":"308,555",
+      "Score":"61,237",
+      "Votes":"661"
+    },
+    {
+      "Title":"Childhood\u0027s End",
+      "Author":"Arthur C. Clarke",
+      "AvgRating":"4.11",
+      "Ratings":"112,860",
+      "Score":"59,135",
+      "Votes":"648"
+    },
+    {
+      "Ti tle":"The Moon is a Harsh Mistress",
+      "Author":"Robert A. Heinlein",
+      "AvgRating":"4.17",
+      "Ratings":"97,554",
+      "Score":"57,933",
+      "Votes":"631"
+    },
+    {
+      "Title":"The Name of the Wind (The Kingkiller Chronicle, #1)",
+      "Author":"Patrick Rothfuss",
+      "AvgRating":"4.55",
+      "Ratings":"588,661",
+      "Score":"57,224",
+      "Votes":"601"
+    },
+    {
+      "Title":"A Canticle for Leibowitz (St. Leibowitz, #1)",
+      "Author":"Walter M. Miller Jr.",
+      "AvgRating":"3.98",
+      "Ratings":"81,967",
+      "Score":"54,861",
+      "Votes":"593"
+    },
+    {
+      "Title":"Rendezvous with Rama (Rama, #1)",
+      "Author":"Arthur C. Clarke",
+      "Av gRating":"4.08",
+      "Ratings":"118,094",
+      "Score":"54,853",
+      "Votes":"603"
+    },
+    {
+      "Title":"The Forever War (The Forever War, #1)",
+      "Author":"Joe Haldeman",
+      "AvgRating":"4.15",
+      "Ratings":"121,187",
+      "Score":"54,394",
+      "Votes":"600"
+    },
+    {
+      "Title":"The Host (The Host, #1)",
+      "Author":"Stepheni e Meyer",
+      "AvgRating":"3.84",
+      "Ratings":"825,398",
+      "Score":"52,318",
+      "Votes":"544"
+    },
+    {
+      "Title":"The Time Traveler\u0027s Wife",
+      "Author":"Audrey Niffenegger",
+      "AvgRating":"3.96",
+      "Ratings":"1,439,430",
+      "Score":"51,744",
+      "Votes":"553"
+    },
+    {
+      "Title":"Ready Player One (Ready Player One, #1)",
+      "Author":"Ernest Cline",
+      "AvgRating":"4.28",
+      "Ratings":"707,450",
+      "Score":"49,804",
+      "Votes":"531"
+    },
+    {
+      "Title":"Old Man\u0027s War (Old Man\u0027s War, #1)",
+      "Author":"John Scalzi",
+      "AvgRating":"4.24",
+      "Ratings":"135,476",
+      "Score":"48,321",
+      "Votes":"528"
+    },
+    {
+      "Title":"D ragonflight (Dragonriders of Pern, #1)",
+      "Author":"Anne McCaffrey",
+      "AvgRating":"4.10",
+      "Ratings":"115,652",
+      "Score":"47,764",
+      "Votes":"517"
+    },
+    {
+      "Title":"Ringworld (Ringworld, #1)",
+      "Author":"Larry Niven",
+      "AvgRating":"3.96",
+      "Ratings":"93,902",
+      "Score":"46,735",
+      "Votes":"517"
+    },
+    {
+      "Title":"Contact",
+      "Author":"Carl Sagan",
+      "AvgRating":"4.13",
+      "Ratings":"109,101",
+      "Score":"46,366",
+      "Votes":"506"
+    },
+    {
+      "Title":"Twenty Thousand Leagues Under the Sea (Extraordinary Voyages, #6)",
+      "Author":"Jules Verne",
+      "AvgRating":"3.88",
+      "Ratings":"171,765",
+      "Score":"44, 764",
+      "Votes":"501"
+    },
+    {
+      "Title":"The Diamond Age: Or, A Young Lady\u0027s Illustrated Primer",
+      "Author":"Neal Stephenson",
+      "AvgRating":"4.19",
+      "Ratings":"74,682",
+      "Score":"40,044",
+      "Votes":"435"
+    },
+    {
+      "Title":"I Am Legend and Other Stories",
+      "Author":"Richard Matheson",
+      "AvgRati ng":"4.00",
+      "Ratings":"111,236",
+      "Score":"39,107",
+      "Votes":"431"
+    },
+    {
+      "Title":"The Dispossessed (Hainish Cycle #6)",
+      "Author":"Ursula K. Le Guin",
+      "AvgRating":"4.21",
+      "Ratings":"70,666",
+      "Score":"38,940",
+      "Votes":"428"
+    },
+    {
+      "Title":"World War Z: An Oral History of the Zombie War ",
+      "Author":"Max Brooks",
+      "AvgRating":"4.01",
+      "Ratings":"386,902",
+      "Score":"36,830",
+      "Votes":"404"
+    },
+    {
+      "Title":"The Sparrow (The Sparrow, #1)",
+      "Author":"Mary Doria Russell",
+      "AvgRating":"4.17",
+      "Ratings":"51,937",
+      "Score":"36,579",
+      "Votes":"385"
+    },
+    {
+      "Title":"The Hitchhiker\u002 7s Guide to the Galaxy (Hitchhiker\u0027s Guide to the Galaxy, #1)",
+      "Author":"Douglas Adams",
+      "AvgRating":"4.22",
+      "Ratings":"1,216,691",
+      "Score":"35,922",
+      "Votes":"408"
+    },
+    {
+      "Title":"Frankenstein",
+      "Author":"Mary Wollstonecraft Shelley",
+      "AvgRating":"3.78",
+      "Ratings":"1,014, 235",
+      "Score":"35,682",
+      "Votes":"406"
+    },
+    {
+      "Title":"The Man in the High Castle",
+      "Author":"Philip K. Dick",
+      "AvgRating":"3.63",
+      "Ratings":"141,633",
+      "Score":"35,172",
+      "Votes":"397"
+    },
+    {
+      "Title":"Uglies (Uglies, #1)",
+      "Author":"Scott Westerfeld",
+      "AvgRating":"3.86",
+      "Ratings":"514, 260",
+      "Score":"34,753",
+      "Votes":"366"
+    },
+    {
+      "Title":"Never Let Me Go",
+      "Author":"Kazuo Ishiguro",
+      "AvgRating":"3.81",
+      "Ratings":"398,006",
+      "Score":"34,741",
+      "Votes":"381"
+    },
+    {
+      "Title":"Ubik",
+      "Author":"Philip K. Dick",
+      "AvgRating":"4.10",
+      "Ratings":"71,461",
+      "Score":"34,549",
+      "Votes":"384"
+    },
+    {
+      "Title":"The Andromeda Strain (Andromeda #1)",
+      "Author":"Michael Crichton",
+      "AvgRating":"3.89",
+      "Ratings":"199,637",
+      "Score":"34,178",
+      "Votes":"393"
+    },
+    {
+      "Title":"The Mote in God\u0027s Eye",
+      "Author":"Larry Niven",
+      "AvgRating":"4.07",
+      "Ratings":"57,430",
+      "Score":"33, 388",
+      "Votes":"378"
+    },
+    {
+      "Title":"The Stars My Destination",
+      "Author":"Alfred Bester",
+      "AvgRating":"4.12",
+      "Ratings":"37,714",
+      "Score":"32,759",
+      "Votes":"361"
+    },
+    {
+      "Title":"American Gods",
+      "Author":"Neil Gaiman",
+      "AvgRating":"4.11",
+      "Ratings":"654,215",
+      "Score":"32,487",
+      "Votes":"3 64"
+    },
+    {
+      "Title":"Oryx and Crake (MaddAddam, #1)",
+      "Author":"Margaret Atwood",
+      "AvgRating":"4.01",
+      "Ratings":"195,579",
+      "Score":"30,842",
+      "Votes":"335"
+    },
+    {
+      "Title":"Journey to the Center of the Earth (Extraordinary Voyages, #3)",
+      "Author":"Jules Verne",
+      "AvgRating":"3.85",
+      "Rat ings":"129,499",
+      "Score":"30,672",
+      "Votes":"350"
+    },
+    {
+      "Title":"Second Foundation (Foundation #3)",
+      "Author":"Isaac Asimov",
+      "AvgRating":"4.25",
+      "Ratings":"122,269",
+      "Score":"30,347",
+      "Votes":"356"
+    },
+    {
+      "Title":"Solaris",
+      "Author":"Stanisław Lem",
+      "AvgRating":"3.99",
+      "Ratings":"60, 321",
+      "Score":"29,950",
+      "Votes":"330"
+    },
+    {
+      "Title":"The Day of the Triffids",
+      "Author":"John Wyndham",
+      "AvgRating":"4.01",
+      "Ratings":"78,260",
+      "Score":"29,671",
+      "Votes":"338"
+    },
+    {
+      "Title":"Red Mars (Mars Trilogy, #1)",
+      "Author":"Kim Stanley Robinson",
+      "AvgRating":"3.85",
+      "Ratings":"58,966",
+      "Score":"29,183",
+      "Votes":"326"
+    },
+    {
+      "Title":"Doomsday Book (Oxford Time Travel, #1)",
+      "Author":"Connie Willis",
+      "AvgRating":"4.03",
+      "Ratings":"42,815",
+      "Score":"28,917",
+      "Votes":"322"
+    },
+    {
+      "Title":"The Sirens of Titan",
+      "Author":"Kurt Vonnegut",
+      "AvgRating":"4.16",
+      "Ra tings":"99,368",
+      "Score":"28,623",
+      "Votes":"320"
+    },
+    {
+      "Title":"Timeline",
+      "Author":"Michael Crichton",
+      "AvgRating":"3.84",
+      "Ratings":"173,763",
+      "Score":"28,516",
+      "Votes":"319"
+    },
+    {
+      "Title":"The Illustrated Man",
+      "Author":"Ray Bradbury",
+      "AvgRating":"4.14",
+      "Ratings":"67,462",
+      "Scor e":"27,898",
+      "Votes":"327"
+    },
+    {
+      "Title":"The Hobbit or There and Back Again",
+      "Author":"J.R.R. Tolkien",
+      "AvgRating":"4.26",
+      "Ratings":"2,513,103",
+      "Score":"27,783",
+      "Votes":"321"
+    },
+    {
+      "Title":"The Fall of Hyperion (Hyperion Cantos, #2)",
+      "Author":"Dan Simmons",
+      "AvgRating":"4.2 0",
+      "Ratings":"83,144",
+      "Score":"26,984",
+      "Votes":"308"
+    },
+    {
+      "Title":"The Caves of Steel (Robot #1)",
+      "Author":"Isaac Asimov",
+      "AvgRating":"4.16",
+      "Ratings":"69,275",
+      "Score":"26,616",
+      "Votes":"315"
+    },
+    {
+      "Title":"The Invisible Man",
+      "Author":"H.G. Wells",
+      "AvgRating":"3.63",
+      "Ratin gs":"116,068",
+      "Score":"26,033",
+      "Votes":"307"
+    },
+    {
+      "Title":"The Return of the King (The Lord of the Rings, #3)",
+      "Author":"J.R.R. Tolkien",
+      "AvgRating":"4.52",
+      "Ratings":"585,476",
+      "Score":"25,959",
+      "Votes":"302"
+    },
+    {
+      "Title":"The Two Towers (The Lord of the Rings, #2)",
+      "Autho r":"J.R.R. Tolkien",
+      "AvgRating":"4.44",
+      "Ratings":"612,719",
+      "Score":"25,814",
+      "Votes":"301"
+    },
+    {
+      "Title":"A Fire Upon the Deep (Zones of Thought, #1)",
+      "Author":"Vernor Vinge",
+      "AvgRating":"4.14",
+      "Ratings":"46,780",
+      "Score":"25,471",
+      "Votes":"283"
+    },
+    {
+      "Title":"Xenocide (Ender \u0027s Saga, #3)",
+      "Author":"Orson Scott Card",
+      "AvgRating":"3.79",
+      "Ratings":"127,945",
+      "Score":"24,714",
+      "Votes":"283"
+    },
+    {
+      "Title":"Foundation and Empire (Foundation #2)",
+      "Author":"Isaac Asimov",
+      "AvgRating":"4.22",
+      "Ratings":"133,759",
+      "Score":"24,519",
+      "Votes":"291"
+    },
+    {
+      "T itle":"A Scanner Darkly",
+      "Author":"Philip K. Dick",
+      "AvgRating":"4.03",
+      "Ratings":"74,570",
+      "Score":"22,747",
+      "Votes":"265"
+    },
+    {
+      "Title":"Anathem",
+      "Author":"Neal Stephenson",
+      "AvgRating":"4.19",
+      "Ratings":"56,130",
+      "Score":"22,179",
+      "Votes":"244"
+    },
+    {
+      "Title":"The Lathe of Heave n",
+      "Author":"Ursula K. Le Guin",
+      "AvgRating":"4.11",
+      "Ratings":"43,306",
+      "Score":"22,093",
+      "Votes":"257"
+    },
+    {
+      "Title":"Flatland: A Romance of Many Dimensions",
+      "Author":"Edwin A. Abbott",
+      "AvgRating":"3.82",
+      "Ratings":"46,493",
+      "Score":"22,090",
+      "Votes":"250"
+    },
+    {
+      "Title":"To Say Nothing of the Dog (Oxford Time Travel, #2)",
+      "Author":"Connie Willis",
+      "AvgRating":"4.13",
+      "Ratings":"29,393",
+      "Score":"21,789",
+      "Votes":"242"
+    },
+    {
+      "Title":"The Player of Games (Culture, #2)",
+      "Author":"Iain M. Banks",
+      "AvgRating":"4.27",
+      "Ratings":"52,418",
+      "Score":"21,000",
+      "Votes":"236"
+    },
+    {
+      "Title":"Gateway (Heechee Saga, #1)",
+      "Author":"Frederik Pohl",
+      "AvgRating":"4.07",
+      "Ratings":"36,092",
+      "Score":"20,901",
+      "Votes":"245"
+    },
+    {
+      "Title":"The Martian",
+      "Author":"Andy Weir",
+      "AvgRating":"4.40",
+      "Ratings":"676,709",
+      "Score":"20,453",
+      "Votes":"230"
+    },
+    {
+      "Title":"Altered Carbon (Takeshi Kovacs, #1)",
+      "Author":"Richard K. Morgan",
+      "AvgRating":"4.06",
+      "Ratings":"72,628",
+      "Score":"20,304",
+      "Votes":"230"
+    },
+    {
+      "Title":"Space Trilogy: Out of the Silent Planet / Perelandra / That Hideous Strength",
+      "Author":"C.S. Lewis",
+      "AvgRating ":"4.12",
+      "Ratings":"8,421",
+      "Score":"19,494",
+      "Votes":"214"
+    },
+    {
+      "Title":"Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+      "Author":"Terry Pratchett",
+      "AvgRating":"4.25",
+      "Ratings":"406,698",
+      "Score":"19,134",
+      "Votes":"221"
+    },
+    {
+      "Title":"Barrayar (Vorkosiga n Saga, #7)",
+      "Author":"Lois McMaster Bujold",
+      "AvgRating":"4.31",
+      "Ratings":"21,938",
+      "Score":"19,089",
+      "Votes":"214"
+    },
+    {
+      "Title":"The Shadow of the Torturer (The Book of the New Sun, #1)",
+      "Author":"Gene Wolfe",
+      "AvgRating":"3.80",
+      "Ratings":"19,033",
+      "Score":"19,051",
+      "Vote s":"214"
+    },
+    {
+      "Title":"Kindred",
+      "Author":"Octavia E. Butler",
+      "AvgRating":"4.23",
+      "Ratings":"70,558",
+      "Score":"17,673",
+      "Votes":"198"
+    },
+    {
+      "Title":"Sphere",
+      "Author":"Michael Crichton",
+      "AvgRating":"3.79",
+      "Ratings":"150,264",
+      "Score":"17,180",
+      "Votes":"200"
+    },
+    {
+      "Title":"To Your Sc attered Bodies Go (Riverworld, #1)",
+      "Author":"Philip José Farmer",
+      "AvgRating":"3.95",
+      "Ratings":"26,380",
+      "Score":"16,744",
+      "Votes":"197"
+    },
+    {
+      "Title":"Lord of Light",
+      "Author":"Roger Zelazny",
+      "AvgRating":"4.10",
+      "Ratings":"24,727",
+      "Score":"16,510",
+      "Votes":"193"
+    }
+  ]
+}
